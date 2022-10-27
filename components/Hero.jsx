@@ -32,7 +32,6 @@ const Hero = () => {
   return (
     <Box sx={{ backgroundColor: "#E6F0FF", minHeight: "80vh" }}>
       <Container>
-        <Navbar />
         <CustomBox>
           <Box sx={{ flex: "1" }}>
             <Typography
@@ -41,7 +40,7 @@ const Hero = () => {
                 fontSize: "18px",
                 color: "#687690",
                 fontWeight: "500",
-                mt: 10,
+                mt: 0,
                 mb: 4,
               }}
             >
