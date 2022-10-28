@@ -7,7 +7,7 @@ import Details from "../components/Details";
 import GetStarted from "../components/GetStarted";
 import Footer from "../components/Footer";
 
-const HomePage = () => {``
+const HomePage = () => {
     return (
         <>
             <Hero/>

@@ -34,8 +34,8 @@ const pages = [
         icon: <FeaturedPlayListIcon/>
     },
     {
-        menuTitle: 'Features',
-        link: '/features',
+        menuTitle: 'Become a Lender',
+        link: '/become-a-lender',
         icon: <MiscellaneousServicesIcon/>
     },
     {
