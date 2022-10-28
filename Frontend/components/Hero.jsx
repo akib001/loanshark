@@ -1,9 +1,7 @@
-import { Box, Stack, styled, Button, Typography } from "@mui/material";
+import { Box, Stack, styled, Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import React from "react";
-import Navbar from "./Navbar";
 
-// import heroImg from "../public/media/hero_illustration.png";
 import CustomButton from "./CustomButton";
 
 const Hero = () => {
@@ -44,7 +42,7 @@ const Hero = () => {
                 mb: 4,
               }}
             >
-              Welcome to Microfinance Agency
+              Welcome to Loan Shark
             </Typography>
             <Title variant="h1">
               Bringing Blockchain Into Microfinance Space
