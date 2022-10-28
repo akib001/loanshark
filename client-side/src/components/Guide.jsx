@@ -1,9 +1,9 @@
 import { Box, Button, styled, Typography } from "@mui/material";
 import React from "react";
 
-import buyIcon from "../public/media/buy_icon.png";
-import sellIcon from "../public/media/sell_icon.png";
-import rentIcon from "../public/media/rent_icon.png";
+import buyIcon from "../media/buy_icon.png";
+import sellIcon from "../media/sell_icon.png";
+import rentIcon from "../media/rent_icon.png";
 
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import CustomButton from "./CustomButton";

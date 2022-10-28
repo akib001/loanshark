@@ -19,7 +19,8 @@ import {
     styled,
 } from "@mui/material";
 import {useState} from "react";
-import {useRouter} from 'next/router';
+import { useNavigate } from "react-router-dom";
+import logo from '../media/logo.png'
 
 
 const pages = [
@@ -51,10 +52,10 @@ const pages = [
 ];
 
 export const Navbar = () => {
-    const router = useRouter();
     const [mobileMenu, setMobileMenu] = useState({
         left: false,
     });
+    const navigate = useNavigate();
 
     const toggleDrawer = (anchor, open) => (event) => {
         if (
@@ -79,8 +80,8 @@ export const Navbar = () => {
                 {pages.map((item, index) =>
                     (<ListItem key={index} disablePadding>
                         <ListItemButton onClick={() => {
-                            router.push(item.link);
-                            setAnchorElNav(null);
+                            navigate(item.link);
+                            // setAnchorElNav(null);
                         }}>
                             <ListItemIcon>
                                 {item.icon}
@@ -158,13 +159,13 @@ export const Navbar = () => {
                     >
                         {list("left")}
                     </Drawer>
-                    <NavbarLogo src={'/media/logo.png'} alt="logo"/>
+                    <NavbarLogo src={logo} alt="logo"/>
                 </Box>
 
                 <NavbarLinksBox>
                     {pages?.map((item, index) => (
                         <NavLink key={index} variant="body2" onClick={() => {
-                            router.push(item.link);
+                            navigate(item.link);
                         }}>{item.menuTitle}</NavLink>
                     ))}
                 </NavbarLinksBox>

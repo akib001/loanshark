@@ -1,6 +1,7 @@
 import { Box, Stack, styled, Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import React from "react";
+import hero from '../media/hero_illustration.png'
 
 import CustomButton from "./CustomButton";
 
@@ -73,7 +74,7 @@ const Hero = () => {
 
           <Box sx={{ flex: "1.25" }}>
             <img
-              src={'/media/hero_illustration.png'}
+              src={hero}
               alt="heroImg"
               style={{ maxWidth: "100%", marginBottom: "2rem" }}
             />

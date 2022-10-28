@@ -1,8 +1,8 @@
 import { Box, styled, Typography } from "@mui/material";
 import React from "react";
-import bedroomsIcon from "../public/media/bedroomsIcon.png";
-import bathroomsIcon from "../public/media/bathroomsIcon.png";
-import spaceIcon from "../public/media/spaceIcon.png";
+import bedroomsIcon from "../media/bathroomsIcon.png";
+import bathroomsIcon from "../media/bathroomsIcon.png";
+import spaceIcon from "../media/spaceIcon.png";
 
 const House = ({ img, price, address, bedrooms, bathrooms, space }) => {
   const HouseBox = styled(Box)(({ theme }) => ({

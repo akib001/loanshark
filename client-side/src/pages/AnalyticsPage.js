@@ -1,7 +1,7 @@
 import React from 'react';
 import {Box, Stack, Typography, Grid, Card, Container} from "@mui/material";
 import { DataGrid } from '@mui/x-data-grid';
-import DashboardTile from "../../components/layouts/DashboardTile";
+import DashboardTile from "../components/layouts/DashboardTile";
 
 const columns = [
     { field: 'id', headerName: 'ID', width: 70 },
@@ -36,7 +36,7 @@ const rows = [
     { id: 9, lastName: 'Roxie', firstName: 'Harvey', age: 65 },
 ];
 
-const Analytics = () => {
+const AnalyticsPage = () => {
     return (
         <Box sx={{ backgroundColor: "#E6F0FF", minHeight: "100vh" }}>
             <Container>
@@ -68,4 +68,4 @@ const Analytics = () => {
     );
 };
 
-export default Analytics;
+export default AnalyticsPage;

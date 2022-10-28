@@ -1,7 +1,7 @@
 import { styled, Typography } from "@mui/material";
 import { Box, Container } from "@mui/system";
 import React from "react";
-import houseCard from "../public/media/houseCard.png";
+import houseCard from "../media/houseCard.png";
 
 const Details = () => {
   const CustomBox = styled(Box)(({ theme }) => ({
