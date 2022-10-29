@@ -29,33 +29,31 @@ const BecomeALenderPage = () => {
                         <DashboardTile title={'Reward Balance'} value={0}/>
                     </Grid>
                 </Grid>
-                    <Stack direction="row" spacing={3} sx={{display: 'flex', justifyContent: 'center'}}>
-                    <Typography>Stake Coin:</Typography>
-                    <FormControl variant="standard" sx={{ width: '25ch' }}>
+                    <Stack direction="row" spacing={2} sx={{display: 'flex', height: '30vh', justifyContent: 'center', alignItems:'center'}}>
+                    <Typography variant={'h4'} sx={{color: '#212121'}}>Stake Coin:</Typography>
+                    <FormControl variant="standard" sx={{ width: '12ch' }}>
                         <Input
-                            id="standard-adornment-weight"
+                            id="stake-coin"
                             value={'89'}
+                            sx={{fontSize: '24px', '& .css-1pnmrwp-MuiTypography-root ': {
+                                    color: '#212121',
+                                    fontWeight: '550'
+                                } }}
                             // onChange={handleChange('weight')}
-                            endAdornment={<InputAdornment position="end">kg</InputAdornment>}
+                            endAdornment={<InputAdornment position="end">USDT</InputAdornment>}
                             aria-describedby="standard-weight-helper-text"
                             inputProps={{
-                                'aria-label': 'weight',
+                                'aria-label': 'stake_coin',
                             }}
                         />
                     </FormControl>
-                    <Button variant="contained" endIcon={<SendIcon />}>
-                        Send
-                    </Button>
+                        <Button variant="contained" endIcon={<SendIcon />}>
+                            Invest
+                        </Button>
                     </Stack>
                 <Stack direction="row" spacing={3} sx={{display: 'flex', justifyContent: 'center'}}>
-                    <Typography>Reward:</Typography>
-                    <TextField
-                        id="standard-helperText"
-                        label=""
-                        defaultValue="100"
-                        helperText=""
-                        variant="standard"
-                    />
+                    <Typography variant={'h4'} sx={{color: '#212121'}}>Reward:</Typography>
+                    <Typography variant={'h5'} sx={{color: '#212121', textAlign: 'center'}}>55</Typography>
                     <Button variant="contained" endIcon={<SendIcon />}>
                         Withdraw
                     </Button>
