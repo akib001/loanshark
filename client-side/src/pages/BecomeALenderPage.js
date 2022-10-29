@@ -52,8 +52,8 @@ const BecomeALenderPage = () => {
                         </Button>
                     </Stack>
                 <Stack direction="row" spacing={3} sx={{display: 'flex', justifyContent: 'center'}}>
-                    <Typography variant={'h4'} sx={{color: '#212121'}}>Reward:</Typography>
-                    <Typography variant={'h5'} sx={{color: '#212121', textAlign: 'center'}}>55</Typography>
+                    <Typography variant={'h4'} sx={{color: '#212121'}}>Reward: 55</Typography>
+                    {/*<Typography variant={'h5'} sx={{color: '#212121', textAlign: 'center'}}>55</Typography>*/}
                     <Button variant="contained" endIcon={<SendIcon />}>
                         Withdraw
                     </Button>
