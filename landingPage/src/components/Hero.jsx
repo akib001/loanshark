@@ -56,8 +56,7 @@ const Hero = () => {
                             variant="body2"
                             sx={{fontSize: "18px", color: "#5A6473", my: 4}}
                         >
-                            Be the first to get the best real estate deals before they hit the
-                            mass market! Hot foreclosure deals with one simple search!
+                            Making uncollateralized loan possible using blockchain technology
                         </Typography>
 
                         <Stack direction="row" spacing={2}>
